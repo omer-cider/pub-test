@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh '''
                     echo "running Makefile..."
+                    echo 'hello'
                 '''
             }
         }
